@@ -1004,7 +1004,7 @@ fn get_api_server_(api: String, custom: String) -> String {
             return format!("http://{}", s);
         }
     }
-    "https://r.wjxy.net.cn".to_owned()
+    "http://h5.wjxy.net.cn:21114".to_owned()
 }
 
 #[inline]
